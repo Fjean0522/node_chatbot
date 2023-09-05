@@ -1,10 +1,10 @@
 import openai from './config/openai.js';
 import readlineSync from 'readline-sync';
 import colors from 'colors';
-import { welcomeMessage, goodbyeMessage } from './config/dialog.js';
 
 const runBot = async () => {
-    console.log(welcomeMessage); 
+
+    console.log(colors.green('NodeWise: ') + 'Greetings! How may I assist you?'); 
 
     while (true) {
         const userInput = readlineSync.question(colors.yellow('You: '));
@@ -23,8 +23,8 @@ const runBot = async () => {
 
         } catch (error) {
             console.error(colors.red(error));
-        }
-    }
+        };
+    };
 };
 
 runBot();
