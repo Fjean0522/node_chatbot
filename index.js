@@ -21,6 +21,10 @@ const runBot = async () => {
 
             console.log(colors.green('NodeWise: ') + completionResponse);
 
+            if (userInput.toLowerCase() === 'exit') {
+                return
+            };
+
         } catch (error) {
             console.error(colors.red(error));
         };
