@@ -4,22 +4,30 @@ import colors from 'colors';
 
 const runBot = async () => {
 
+    // Chat history storage
+    const chatHistory = [];
+
     console.log(colors.green('NodeWise: ') + 'Greetings! How may I assist you?'); 
 
     while (true) {
         const userInput = readlineSync.question(colors.yellow('You: '));
 
         try {
-            // Send user input as Request to API
+            // Add user input to chat history
+            chatHistory.push({ role: 'user', content: userInput });
+
+            // Send chat history to the API 
             const completionRequest = await openai.chat.completions.create({
                 model: 'gpt-3.5-turbo',
-                messages: [{ role: 'user', content: userInput }]
+                messages: chatHistory,
             });
 
             // Get Response
             const completionResponse = completionRequest.choices[0].message.content;
 
             console.log(colors.green('NodeWise: ') + completionResponse);
+
+            chatHistory.push({ role: 'assistant', content: completionResponse });
 
             if (userInput.toLowerCase() === 'exit') {
                 return
