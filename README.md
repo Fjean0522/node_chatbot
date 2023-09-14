@@ -1,5 +1,5 @@
 # nodewise
-Nodewise is a terminal-based chatbot, Built using Node.js and utilizes the OpenAI API to enable human-like conversational interactions.  The bot can respond to questions and compose various written content, including articles, social media posts, essays, code and emails.
+Nodewise is a terminal-based chatbot, Built using Node.js and utilizes the OpenAI API to enable human-like conversational interactions.  The bot can respond to questions and compose various written content, including articles, social media posts, essays, code, and emails.
 
 ## Features
 Nodewise offers a range of features to enhance your conversational experience:
