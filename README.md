@@ -4,24 +4,25 @@ Nodewise is a terminal-based chatbot, Built using Node.js and utilizes the OpenA
 ## Features
 Nodewise offers a range of features to enhance your conversational experience:
 
-* **Casual Conversation**:  
-  Engage in friendly, casual conversations with Nodewise.
-* **Question & Answer**:  
-  Ask Nodewise questions, and it will provide answers to the best of its knowledge.
 * **Content Generation**:  
   Utilize Nodewise to generate various types of content, including articles, social media posts, essays, code snippets, and emails.
+* **Question & Answer**:  
+  Ask Nodewise questions, and it will provide answers to the best of its knowledge.
+* **Casual Conversation**:  
+  Engage in friendly, casual conversations with Nodewise.
+
   
 **Examples**  
-Here are some examples of how you can interact with Nodewise:
+Here are some examples of how you can interact with Nodewise:  
+
+**Content Generation**:  
+![Chatbot Screenshot](/images/code.png)  
+
+**Question & Answer**:  
+![Chatbot Screenshot](/images/question.png)  
 
 **Casual Conversation**:  
 ![Chatbot Screenshot](/images/casual_convo.png)
-
-**Question & Answer**:  
-![Chatbot Screenshot](/images/question.png)
-
-**Content Generation**:  
-![Chatbot Screenshot](/images/code.png)
 
 ## Installation
 Before you can start using NodeWise, you'll need to set it up on your system. Please follow these instructions:
