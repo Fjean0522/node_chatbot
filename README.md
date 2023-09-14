@@ -1,7 +1,27 @@
 # nodewise
 Nodewise is a terminal-based chatbot, Built using Node.js and utilizes the OpenAI API to enable human-like conversational interactions.  The bot can respond to questions and compose various written content, including articles, social media posts, essays, code and emails.
 
-![Chatbot Screenshot](/images/node_wise.png)
+## Features
+Nodewise offers a range of features to enhance your conversational experience:
+
+* **Casual Conversation**:  
+  Engage in friendly, casual conversations with Nodewise.
+* **Question & Answer**:  
+  Ask Nodewise questions, and it will provide answers to the best of its knowledge.
+* **Content Generation**:  
+  Utilize Nodewise to generate various types of content, including articles, social media posts, essays, code snippets, and emails.
+  
+**Examples**  
+Here are some examples of how you can interact with Nodewise:
+
+**Casual Conversation**:  
+![Chatbot Screenshot](/images/casual_convo.png)
+
+**Question & Answer**:  
+![Chatbot Screenshot](/images/question.png)
+
+**Content Generation**:  
+![Chatbot Screenshot](/images/code.png)
 
 ## Installation
 Before you can start using NodeWise, you'll need to set it up on your system. Please follow these instructions:
@@ -31,25 +51,3 @@ Now that you have successfully set up Nodewise, you can start using it in your t
 `npm start`
 
 To exit Nodewise, simply type `exit`
-
-#### Features
-Nodewise offers a range of features to enhance your conversational experience:
-
-* **Casual Conversation**:  
-  Engage in friendly, casual conversations with Nodewise.
-* **Question & Answer**:  
-  Ask Nodewise questions, and it will provide answers to the best of its knowledge.
-* **Content Generation**:  
-  Utilize Nodewise to generate various types of content, including articles, social media posts, essays, code snippets, and emails.
-  
-**Examples**  
-Here are some examples of how you can interact with Nodewise:
-
-**Casual Conversation**:  
-![Chatbot Screenshot](/images/casual_convo.png)
-
-**Question & Answer**:  
-![Chatbot Screenshot](/images/question.png)
-
-**Content Generation**:  
-![Chatbot Screenshot](/images/code.png)
