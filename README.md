@@ -46,9 +46,10 @@ Nodewise offers a range of features to enhance your conversational experience:
 Here are some examples of how you can interact with Nodewise:
 
 **Casual Conversation**:  
-
+![Chatbot Screenshot](/images/casual_convo.png)
 
 **Question & Answer**:  
-
+![Chatbot Screenshot](/images/question.png)
 
 **Content Generation**:  
+![Chatbot Screenshot](/images/code.png)
